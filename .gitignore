@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Generated subtitle inputs/outputs
+*.ass
+*.ssa
+*.srt
+*.vtt
+*.flac
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# Generated reports and command lists
+report.json
+*_report.json
+ffmpeg_commands*.txt
+run_ffmpeg_parallel.*
+speaker_map.csv
+*_speaker-map.csv
+*speaker*map*.csv
+*说话人映射*.csv
+
+# Typical generated output folders
+*_workflow/
+speakers/
+按说话人拆分/
